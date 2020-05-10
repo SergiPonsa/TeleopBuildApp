@@ -1,0 +1,3 @@
+pyinstaller --add-data 'ModBus_server_data.xlsx:.' --hidden-import URCommunicationClass.py --hidden-import URDashBoardClass.py --hidden-import URModbusClass.py --hidden-import URScriptsTcpIpClass.py --onefile Teleop-Func_with_stop.py
+
+pip install --upgrade 'setuptools<45.0.0'
